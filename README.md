@@ -1,11 +1,18 @@
 # PresZan
 
-Gestor local de presupuestos múltiples, control de gastos y archivo de tickets/facturas con exportación en PDF y ZIP.
+Aplicación de escritorio para Windows orientada a gestionar múltiples presupuestos, controlar gastos y organizar tickets o facturas de forma rápida y 100 % local.
 
-## Descarga e instalación
-1. Ve a la sección **[Releases](../../releases)** a la derecha de esta página.
-2. Descarga el archivo **`PresZan 1.0.0.exe`**.
-3. Ejecútalo directamente (no requiere instalación). *Nota: Si Windows muestra el aviso de SmartScreen por ser una aplicación independiente, pulsa en **"Más información" > "Ejecutar de todas formas"**.*
+## Características principales
+- **Gestión de presupuestos independientes:** Crea presupuestos con importe inicial, edítalos cuando lo necesites y consulta en todo momento el total gastado, el saldo restante y el porcentaje consumido.
+- **Ticket o factura obligatorio (opcional por presupuesto):** Activa o desactiva la exigencia de adjuntar justificante para cada presupuesto según cómo quieras llevar el control.
+- **Adjuntos con arrastrar y soltar:** Añade PDFs o imágenes (`PNG`, `JPG`, `JPEG`, `WEBP`) mediante selector de archivos o arrastrándolos directamente al formulario, y edita o reemplaza justificantes cuando haga falta.
+- **Búsqueda y ordenación:** Filtra gastos por concepto, fecha o importe y ordénalos por fecha de subida, fecha del ticket o importe.
+- **Exportación en PDF y ZIP:** Genera informes en PDF con el desglose y justificantes gráficos, o descarga un paquete ZIP con resumen en CSV, informe PDF y los archivos adjuntos.
+- **Aviso automático de actualizaciones:** Comprueba al iniciar si existe una versión más reciente publicada en Releases y abre la página de descarga si hay novedades.
 
-## Aviso y copias de seguridad
-Todos los datos se almacenan exclusivamente de forma local en tu equipo. Utiliza periódicamente el botón **"Descargar todo en ZIP"** dentro de cada presupuesto para conservar una copia de seguridad externa. Consulta el archivo [LICENSE](LICENSE) para ver los términos de uso.
+## Descarga y uso
+1. Ve a la sección **Releases** de este repositorio y descarga el archivo ejecutable **`PresZan 1.0.0.exe`**.
+2. Ábrelo directamente (no requiere instalación). Si Windows muestra el aviso de SmartScreen por ser una aplicación independiente, selecciona **Más información > Ejecutar de todas formas**.
+
+## Privacidad y copias de seguridad
+Los datos y archivos se almacenan de forma local en el equipo del usuario. Se recomienda exportar periódicamente una copia en **ZIP** desde cada presupuesto para mantener respaldos externos. Consulta el archivo `LICENSE` para revisar los términos de uso y las condiciones de código cerrado.
